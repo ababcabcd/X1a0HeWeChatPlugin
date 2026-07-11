@@ -1,8 +1,8 @@
 # X1a0He Plugin 2 for macOS
 
 ![platform](https://img.shields.io/badge/platform-macos-blue.svg)
-[![release](https://img.shields.io/badge/release-v2.6.1-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
-![support](https://img.shields.io/badge/support-%204.1.11.53-blue.svg)
+[![release](https://img.shields.io/badge/release-v2.6.2-brightgreen.svg)](https://github.com/X1a0He/X1a0HeWeChatPlugin/releases)
+![support](https://img.shields.io/badge/support-%204.1.11.54-blue.svg)
 
 macOS 客户端插件
 ![](images/WeChatMainMockUp.png)
@@ -10,22 +10,21 @@ macOS 客户端插件
 
 > ✅ 已在以下环境中测试通过\
 > 💻 设备: M1 Max macOS 27 Golden Gate Beta (26A5378j)\
-> 📒 微信版本: 4.1.11.53(41748)\
+> 📒 微信版本: 4.1.11.54(41754)\
 > ❌ 不支持 Intel 版本\
 > ❌ 不支持 MAS 版本
 > 
-> MD5: 09c20f158d8562ecb09b0aa7f93d63f5\
-> SHA1: 0daf03a9c20ae25f530be621c5e6c4c8cc9dee6d\
-> SHA256: df543fa75a1fbac6eef8f801b610ae4c215e71b2db79a7eccd470a537a463ab5
+> MD5: f8b5762791afaf1195396f799073ab25\
+> SHA1: cc4b3975e3032e43db3658a3f7df916bb10f3186\
+> SHA256: 1c1bbecd161e4fedc8fa527d859a324a79628f990903f5ca76cdc7815f6c5315
 > 
-> 安装包 pkg SHA 256: 2ce809eea599287313f8078163157446e0a16fd2b3523beeaf68b4fe7e6e5f7c
+> 安装包 pkg SHA 256: 707cd62d1cead5e9d5bd51b0d6c9896bec465607b0530e0b9881ac1434b56ea6
 
 # 支持版本(点击版本或立即下载即可下载原版)
 ## 最新支持版本
 |                                                 版本                                                 |  版本号  | 支持 | 需要插件版本 | 下载原版                                                                                          |
 |:--------------------------------------------------------------------------------------------------:|:-----:|:--:|:------:|-----------------------------------------------------------------------------------------------|
-| [4.1.11.52](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.52_41747.dmg) | 41747 | ✅  | 2.6.1  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.52_41747.dmg) |
-| [4.1.11.53](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.53_41748.dmg) | 41748 | ✅  | 2.6.1  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.53_41748.dmg) |
+| [4.1.11.54](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.54_41754.dmg) | 41754 | ✅  | 2.6.2  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.54_41754.dmg) |
 
 ## 历史支持版本
 <details>
@@ -87,6 +86,9 @@ macOS 客户端插件
 | [4.1.11.23](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.23_40493.dmg) | 40493 | ✅  |     2.5.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.23_40493.dmg) |
 | [4.1.11.49](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.49_41704.dmg) | 41704 | ✅  |       -       | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.49_41704.dmg) |
 | [4.1.11.50](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.50_41715.dmg) | 41715 | ✅  |     2.6.0     | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.50_41715.dmg) |
+| [4.1.11.52](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.52_41747.dmg) | 41747 | ✅  | 2.6.1  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.52_41747.dmg) |
+| [4.1.11.53](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.53_41748.dmg) | 41748 | ✅  | 2.6.1  | [立即下载](https://dldir1v6.qq.com/weixin/Universal/Mac/xWeChatMac_universal_4.1.11.53_41748.dmg) |
+
 </details>
 
 # 目录
@@ -113,14 +115,8 @@ macOS 客户端插件
 
 - **更多更新日志，请查看 [更新日志](change-log.md)**
 
-### 2.6.1 (2026.07.10)
-- feat: 支持 4.1.11.52(41747)
-- feat: 支持 4.1.11.53(41748)
-- fix: 修复了图片消息转发时出现崩溃的问题
-- fix: 修复部分情况下视频消息出现崩溃的问题
-- fix: 修复了图片消息撤回转发时只转发缩略图而不是原图的问题
-- feat: 优化图片消息转发的图片命中逻辑
-- feat: 优化了部分链接消息转发时的格式显示
+### 2.6.2 (2026.07.11)
+- feat: 支持 4.1.11.54(41754)
 
 PS: 目前 `消息撤回通知`、`消息撤回转发` 和 `消息撤回黑白名单功能` 均为测试功能，后续版本不稳定会考虑移除
 
